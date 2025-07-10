@@ -1,51 +1,160 @@
-
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* shared style */
-.text-primary{
+.text-center {
+    text-align: center;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.text-primary {
     color: #FD6E0A;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.btn-primary{
-   background-color:#FD6E0A;
-   color: white;
-   font-weight: bold;
-   font-size: 20px;
-   padding: 18px 35px;
-   border-radius: 5px;
-   border: none;
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
 }
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+}
+
+/* header styles */
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+
 /* nav styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
 }
 
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-profile-img {
+    width: 580px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about {
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px;
+}
+
+.item-title {
+    font-weight: 400;
+    color: #757575;
+}
+
+.item-description {
+    font-weight: bold;
+    color: #474747;
+}
+
+/* skill styles */
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill {
+    padding: 40px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.skill-description{
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+}
