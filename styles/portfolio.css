@@ -95,11 +95,13 @@ nav ul li a {
 .banner-greeting {
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .banner-title {
     font-size: 85px;
     font-weight: bold;
+    margin-top: 0;
 }
 
 .banner-profile-img {
@@ -157,4 +159,51 @@ main section {
     font-size: 18px;
     font-weight: normal;
     color: #757575;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin-top: 30px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    gap: 120px;
+    padding: 130px 230px;
+}
+footer input, textarea{
+    height: 64px;
+    width: 460px;
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+footer textarea{
+    height: 120px;
 }
